@@ -1,0 +1,139 @@
+body{
+  background-image: url(https://www.intimina.com/blog/wp-content/uploads/2020/11/Womenbodies.jpg);
+  font-style: normal;
+  font-family: fantasy;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.headings{
+  font-size: 5rem;
+  font-family: fantasy;
+  font-style: italic;
+  color: #c71585;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  background-color:white;
+}
+/*banner text editting*/
+.banner-text{
+  width: 100%;
+  padding-bottom: 15px;
+  position: absolute;
+  background-color: white;
+}
+.banner-text ul{
+  height: 50px;
+  float: right;
+}
+.banner-text ul li{
+  display: inline-block;
+  padding: 40px 15px;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.banner-text ul li a{
+  text-decoration: none;
+  color: #c71585;
+  transition: all .5s ease;
+}
+.banner-text ul li a:hover{
+  background-color: grey;
+  color:pink;
+  box-shadow: 0 0 10px pink;
+}
+/*Home section editting*/
+#home{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
+  justify content: center;
+  align-items: center;
+  color: white;
+  font-family: serif;
+}
+#home::before{
+  content"";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(images.jpg) no-repeat center/cover;
+  height: 900px;
+  width 100%
+  z-index:-1
+  opacity:8;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  border: 10px solid white;
+  align-items: center;
+  position: absolute;
+  top: 60%
+}
+.subheadings{
+  font-family: fantasy;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/*about section*/
+.section-headings{
+  font-size: 6rem;
+  font-family: fantasy;
+  font-style: italic;
+  color: #c71585;
+  text-align: center;
+  background-color:white;
+  margin-top: -20px;
+}
+
+#about{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+#pic{
+  display: flex;
+}
+#pic img{
+  width: 750px;
+  height: 650px;
+
+}
+#intro{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+  font-family: fantasy;
+}
+.intro-h2{
+  color:#c71280 ;
+  font-family: fantasy;
+  font-size: 40px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+p{
+  font-family: inherit;
+font-size: 30px;
+color: #db7090;
+background-color:#f8f8ff;
+}
+ol{
+  background-color: #f8f8ff;
+  font-family: inherit;
+  font-size: 25px;
+  color: #db7090;
+}
+/*contact section*/
