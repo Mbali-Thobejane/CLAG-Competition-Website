@@ -136,4 +136,20 @@ ol{
   font-size: 25px;
   color: #db7090;
 }
-/*contact section*/
+.body-img img{
+   margin-bottom: 90px;
+   align-items: right;
+   width: 800px;
+}
+
+.body-mind img{
+  margin-left: 850px;
+  margin-bottom: 100px;
+  top: 300px;
+  width: 550px
+}
+ .body-power img{
+   padding-top: 70px;
+   margin-bottom:100px;
+   width: 600px;
+ }
